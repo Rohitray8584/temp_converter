@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0eae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.converter {
+
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    color: #004466;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.options {
+    margin: 15px 0;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+             
+.btn-grad {
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+    .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+     color: #fff;
+    text-decoration: none;
+      }
+     
+
